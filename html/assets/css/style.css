@@ -1,0 +1,87 @@
+/*------------------------------------------------------------------
+ * Theme Name: Ripple | Material Design Landing Page & Coming-Soon Templates Pack
+ * Theme URI: http://colorlib.net/ripple
+ * Version: 1.0
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Bootstrap v4.1 (http://getbootstrap.com)
+ * Copyright 2018 ColorLib.Net
+*/
+/*************************
+**************************
+
+Your Custom CSS Goes Here...
+
+**************************
+**************************/
+html,
+body,
+header{
+  height: 100%;
+}
+.h1, 
+.h2, 
+.h3, 
+.h4, 
+.h5, 
+.h6, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+	font-family:'Roboto Slab',sans-serif;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+    font-weight: 300;
+   -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, 
+.navbar.navbar-light .navbar-nav .nav-item .nav-link, 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto Slab', sans-serif;
+}
+.btn {
+    padding: .85rem 2.7rem;
+}
+.dropdown .dropdown-menu.dropdown-default .dropdown-item:active, .dropdown .dropdown-menu.dropdown-default .dropdown-item:hover, .dropleft .dropdown-menu.dropdown-default .dropdown-item:active, .dropleft .dropdown-menu.dropdown-default .dropdown-item:hover, .dropright .dropdown-menu.dropdown-default .dropdown-item:active, .dropright .dropdown-menu.dropdown-default .dropdown-item:hover, .dropup .dropdown-menu.dropdown-default .dropdown-item:active, .dropup .dropdown-menu.dropdown-default .dropdown-item:hover {
+    background: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+.form-elegant .font-small {
+    font-size: 0.8rem; }
+
+.form-elegant .z-depth-1a {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25);
+    box-shadow: 0 2px 5px 0 rgba(55, 161, 255, 0.26), 0 4px 12px 0 rgba(121, 155, 254, 0.25); }
+
+.form-elegant .z-depth-1-half,
+.form-elegant .btn:hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(85, 182, 255, 0.28), 0 4px 15px 0 rgba(36, 133, 255, 0.15); }
+
+.form-elegant .modal-header {
+    border-bottom: none; }
+
+.modal-dialog .form-elegant .btn .fa {
+    color: #2196f3!important; 
+}
+
+.form-elegant .modal-body, 
+.form-elegant .modal-footer {
+    font-weight: 400; }
+.coming_soon_form input{
+	border-left:1px solid!important;
+	border-top:1px solid!important;
+}
+.coming_soon_form input:focus{
+    box-shadow: 0 0px 10px 0 #112f6b!important;
+    background: #fff!important;
+	color: #112f6b!important;
+}
+.coming_soon_form input::placeholder{
+    color: #ffffff!important; 	
+}
